@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.registration-form {
+    background-color: #ffffff; /* White for the form background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    width: 300px;
+}
+
+h2 {
+    color: #333333; /* Dark gray for the header */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666; /* Medium gray for labels */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Very light gray background for inputs */
+    color: #333333; /* Dark gray text */
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+}
+
+.form-group button {
+    background-color: #444444; 
+    color: white; 
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #666666;
+}
+
+a {
+    color: #888888; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #333333;
+}
